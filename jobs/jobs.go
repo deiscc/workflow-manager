@@ -4,11 +4,11 @@ import (
 	"log"
 	"time"
 
-	"github.com/deis/workflow-manager/config"
-	"github.com/deis/workflow-manager/data"
-	"github.com/deis/workflow-manager/k8s"
-	apiclient "github.com/deis/workflow-manager/pkg/swagger/client"
-	"github.com/deis/workflow-manager/pkg/swagger/client/operations"
+	"github.com/deiscc/workflow-manager/config"
+	"github.com/deiscc/workflow-manager/data"
+	"github.com/deiscc/workflow-manager/k8s"
+	apiclient "github.com/deiscc/workflow-manager/pkg/swagger/client"
+	"github.com/deiscc/workflow-manager/pkg/swagger/client/operations"
 )
 
 // Periodic is an interface for managing periodic job invocation

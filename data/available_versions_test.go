@@ -9,9 +9,9 @@ import (
 	"testing"
 
 	"github.com/arschles/assert"
-	"github.com/deis/workflow-manager/config"
-	"github.com/deis/workflow-manager/pkg/swagger/client/operations"
-	"github.com/deis/workflow-manager/pkg/swagger/models"
+	"github.com/deiscc/workflow-manager/config"
+	"github.com/deiscc/workflow-manager/pkg/swagger/client/operations"
+	"github.com/deiscc/workflow-manager/pkg/swagger/models"
 )
 
 // Creating a novel mock struct that fulfills the AvailableVersions interface

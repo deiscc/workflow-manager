@@ -5,9 +5,8 @@ import (
 	"testing"
 
 	"github.com/arschles/assert"
-	"github.com/deis/kubeapp/api/secret"
-	"github.com/deis/workflow-manager/k8s"
-	"github.com/satori/go.uuid"
+	"github.com/deiscc/kubeapp/api/secret"
+	"github.com/deiscc/workflow-manager/k8s"
 	"k8s.io/kubernetes/pkg/api"
 )
 

@@ -9,11 +9,11 @@ import (
 	"testing"
 
 	"github.com/arschles/assert"
-	"github.com/deis/workflow-manager/config"
-	"github.com/deis/workflow-manager/data"
-	"github.com/deis/workflow-manager/handlers"
-	"github.com/deis/workflow-manager/mocks"
-	apiclient "github.com/deis/workflow-manager/pkg/swagger/client"
+	"github.com/deiscc/workflow-manager/config"
+	"github.com/deiscc/workflow-manager/data"
+	"github.com/deiscc/workflow-manager/handlers"
+	"github.com/deiscc/workflow-manager/mocks"
+	apiclient "github.com/deiscc/workflow-manager/pkg/swagger/client"
 	"github.com/gorilla/mux"
 )
 

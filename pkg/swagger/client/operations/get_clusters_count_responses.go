@@ -12,7 +12,7 @@ import (
 
 	strfmt "github.com/go-swagger/go-swagger/strfmt"
 
-	"github.com/deis/workflow-manager/pkg/swagger/models"
+	"github.com/deiscc/workflow-manager/pkg/swagger/models"
 )
 
 // GetClustersCountReader is a Reader for the GetClustersCount structure.

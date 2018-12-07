@@ -4,14 +4,13 @@ package handlers
 import (
 	"encoding/json"
 	"net/http"
-
-	"github.com/deis/workflow-manager/config"
-	"github.com/deis/workflow-manager/data"
-	"github.com/deis/workflow-manager/k8s"
-	apiclient "github.com/deis/workflow-manager/pkg/swagger/client"
-	"github.com/deis/workflow-manager/pkg/swagger/client/operations"
+        "github.com/satori/go.uuid"
+	"github.com/deiscc/workflow-manager/config"
+	"github.com/deiscc/workflow-manager/data"
+	"github.com/deiscc/workflow-manager/k8s"
+	apiclient "github.com/deiscc/workflow-manager/pkg/swagger/client"
+	"github.com/deiscc/workflow-manager/pkg/swagger/client/operations"
 	"github.com/gorilla/mux"
-	"github.com/satori/go.uuid"
 )
 
 const (

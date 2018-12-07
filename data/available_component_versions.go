@@ -1,8 +1,8 @@
 package data
 
 import (
-	"github.com/deis/workflow-manager/k8s"
-	"github.com/deis/workflow-manager/pkg/swagger/models"
+	"github.com/deiscc/workflow-manager/k8s"
+	"github.com/deiscc/workflow-manager/pkg/swagger/models"
 )
 
 // AvailableComponentVersion is an interface for managing component version data
@@ -13,7 +13,7 @@ type AvailableComponentVersion interface {
 
 // latestReleasedComponent fulfills the AvailableComponentVersion interface
 type latestReleasedComponent struct {
-	k8sResources *k8s.ResourceInterfaceNamespaced
+	k8sResources      *k8s.ResourceInterfaceNamespaced
 	availableVersions AvailableVersions
 }
 
@@ -23,7 +23,7 @@ func NewLatestReleasedComponent(
 	availableVersions AvailableVersions,
 ) AvailableComponentVersion {
 	return &latestReleasedComponent{
-		k8sResources: ri,
+		k8sResources:      ri,
 		availableVersions: availableVersions,
 	}
 }

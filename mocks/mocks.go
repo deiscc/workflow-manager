@@ -8,7 +8,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/deis/workflow-manager/pkg/swagger/models"
+	"github.com/deiscc/workflow-manager/pkg/swagger/models"
 )
 
 const mainPackage = "workflow-manager"

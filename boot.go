@@ -6,11 +6,11 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/deis/workflow-manager/config"
-	"github.com/deis/workflow-manager/data"
-	"github.com/deis/workflow-manager/handlers"
-	"github.com/deis/workflow-manager/jobs"
-	"github.com/deis/workflow-manager/k8s"
+	"github.com/deiscc/workflow-manager/config"
+	"github.com/deiscc/workflow-manager/data"
+	"github.com/deiscc/workflow-manager/handlers"
+	"github.com/deiscc/workflow-manager/jobs"
+	"github.com/deiscc/workflow-manager/k8s"
 	"github.com/gorilla/mux"
 	kcl "k8s.io/kubernetes/pkg/client/unversioned"
 )

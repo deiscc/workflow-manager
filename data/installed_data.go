@@ -3,8 +3,8 @@ package data
 import (
 	"encoding/json"
 
-	"github.com/deis/workflow-manager/k8s"
-	"github.com/deis/workflow-manager/pkg/swagger/models"
+	"github.com/deiscc/workflow-manager/k8s"
+	"github.com/deiscc/workflow-manager/pkg/swagger/models"
 )
 
 var (
@@ -13,7 +13,7 @@ var (
 	rcType         = "Replication Controller"
 )
 
-const versionAnnotation = "component.deis.io/version"
+const versionAnnotation = "component.deis.cc/version"
 
 // InstalledData is an interface for managing installed cluster metadata
 type InstalledData interface {

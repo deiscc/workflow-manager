@@ -6,9 +6,9 @@ import (
 	"log"
 	"strings"
 
-	"github.com/deis/workflow-manager/config"
-	"github.com/deis/workflow-manager/k8s"
-	"github.com/deis/workflow-manager/pkg/swagger/models"
+	"github.com/deiscc/workflow-manager/config"
+	"github.com/deiscc/workflow-manager/k8s"
+	"github.com/deiscc/workflow-manager/pkg/swagger/models"
 )
 
 const (

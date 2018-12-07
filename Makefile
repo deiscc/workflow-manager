@@ -2,9 +2,9 @@ SHORT_NAME := workflow-manager
 
 include versioning.mk
 
-DEV_ENV_IMAGE := quay.io/deis/go-dev:0.20.0
-SWAGGER_IMAGE := quay.io/goswagger/swagger:0.7.3
-DEV_ENV_WORK_DIR := /go/src/github.com/deis/${SHORT_NAME}
+DEV_ENV_IMAGE := deiscc/go-dev
+SWAGGER_IMAGE := goswagger/swagger:0.7.3
+DEV_ENV_WORK_DIR := /go/src/github.com/deiscc/${SHORT_NAME}
 DEV_ENV_CMD := docker run --rm -v ${CURDIR}:${DEV_ENV_WORK_DIR} -w ${DEV_ENV_WORK_DIR} ${DEV_ENV_IMAGE}
 SWAGGER_CMD := docker run --rm -e GOPATH=/go -v ${CURDIR}:${DEV_ENV_WORK_DIR} -w ${DEV_ENV_WORK_DIR} ${SWAGGER_IMAGE}
 SHELL_SCRIPTS = rootfs/bin/doctor
